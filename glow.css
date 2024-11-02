@@ -1,0 +1,106 @@
+.glow {
+	/*  #0fffc1, #7e0fff  */
+	position: fixed;
+	left:22.5vw;
+	top:62vh;
+	min-width:55vw;
+	min-height:10vh;
+	border-radius: 10vh;
+
+	-webkit-filter: blur(6vw);
+	filter: blur(6vw);
+
+	opacity: 0.3;
+	/*
+background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);
+background: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);
+*/
+
+	background: -webkit-linear-gradient(to right, #252B37, #78ffd6,#252B37, #007991);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #252B37,#78ffd6,#252B37, #007991); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+	/*background: linear-gradient(to right, #ff80ff, #80ffff);*/
+	animation: animateGlow 12.1s ease infinite;
+}
+.glow2 {
+	/*  #0fffc1, #7e0fff  */
+	position: fixed;
+	left:25vw;
+	top:42vh;
+	min-width:50vw;
+	min-height:10vh;
+	border-radius: 10vh;
+
+	-webkit-filter: blur(6vw);
+	filter: blur(6vw);
+
+	opacity: 0.3;
+
+
+	background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);
+	background: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);
+
+
+	/*
+background: -webkit-linear-gradient(to right, #252B37, #78ffd6, #007991);
+background: linear-gradient(to right, #252B37,#78ffd6, #007991);
+*/
+
+	/*background: linear-gradient(to right, #ff80ff, #80ffff);*/
+	animation: animateGlow 9.1s reverse ease infinite;
+}
+.glow3 {
+	/*  #0fffc1, #7e0fff  */
+	position: fixed;
+	left:38vw;
+	top:30vh;
+	min-width:5vw;
+	min-height:52vh;
+	border-radius: 10vh;
+
+	-webkit-filter: blur(6vw);
+	filter: blur(6vw);
+
+	opacity: 0.3;
+
+	background: -webkit-linear-gradient(to bottom, #000000, #eeffff);
+	background: linear-gradient(to bottom, #000000, #eeffff);
+
+	/*background: linear-gradient(to right, #ff80ff, #80ffff);*/
+	animation: animateGlow2 7.1s  ease infinite;
+}
+.glow4 {
+	/*  #0fffc1, #7e0fff  */
+	position: fixed;
+	left:57vw;
+	top:30vh;
+	min-width:5vw;
+	min-height:52vh;
+	border-radius: 10vh;
+
+	-webkit-filter: blur(6vw);
+	filter: blur(6vw);
+
+	opacity: 0.3;
+
+	background: -webkit-linear-gradient(to bottom, #000000, #eeffff);
+	background: linear-gradient(to bottom, #000000, #eeffff);
+
+	/*background: linear-gradient(to right, #ff80ff, #80ffff);*/
+	animation: animateGlow2 6.3s reverse ease infinite;
+}
+@keyframes animateGlow {
+0%{background-position: 0 }
+25%{background-position: 50vh }
+50%{background-position:  0 }
+75%{background-position:  -50vh }
+100%{background-position: 0}
+}
+@keyframes animateGlow2 {
+0%{background-position: 0 0}
+25%{background-position: 0 50vh }
+50%{background-position: 0 0 }
+75%{background-position: 0 -50vh }
+100%{background-position:0 0}
+}
